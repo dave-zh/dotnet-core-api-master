@@ -23,7 +23,7 @@ namespace TodoApi.Controllers
 
             if (_context.TodoItems.Count() == 0)
             {
-                _context.TodoItems.Add(new TodoItem { Name = "Item99" });
+                _context.TodoItems.Add(new TodoItem { Name = "Item11" });
                 _context.SaveChanges();
             }
         }
