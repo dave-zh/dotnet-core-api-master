@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "apis1": {
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.ApiManagement/service/API-Mgmt-Test1/apis/todoapi33",
+      "type": "apis.azure"
+    },
+    "mssql1": {
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/dave01/databases/drApp",
+      "type": "mssql.azure",
+      "connectionId": "dave01.database.windows.net",
+      "secretStore": "AzureAppSettings"
+    }
+  }
+}
